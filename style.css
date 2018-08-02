@@ -1,0 +1,19 @@
+#lars {
+    height: 330px;
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+#meinfo {
+  margin-top: 20px;
+  text-emphasis: wrap;
+}
+.navbar {
+    height: 60px;
+
+}
+body {
+    background-color: lightgrey;
+}
