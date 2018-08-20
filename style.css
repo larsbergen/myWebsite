@@ -17,3 +17,7 @@
 body {
     background-color: lightgrey;
 }
+#bottomNav {
+    align-items: center;
+    font-size: 25px;
+}
