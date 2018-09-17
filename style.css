@@ -1,36 +1,130 @@
-#lars {
-    height: 330px;
-    width: 250px;
+.larz {
+    height: 250px;
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    float: left;
+    border: 2px solid black;
+}
+.app-box {
+    height: auto;
+    width: 220px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: white;
+    margin: 10px;
+}
+.adoption-app {
+    height: 150px;
+    width: 180px;
     margin-left: 20px;
     margin-top: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
+    border-radius: 20px;
+    float: left;
+    border: 1px solid gray;
 }
 #meinfo {
-  margin-top: 20px;
+  margin-top: 80px;
   text-emphasis: wrap;
+  border-radius: 20px;
+  font-size: 20px;
+  margin-bottom: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
-.navbar {
-    height: 60px;
+.full-box1 {
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 100%;
+    background-color: white;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.full-box2 {
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    height: 380;
+    /* background-color: white;
+    border: 2px solid black; */
+    margin-top: 40px;
+    margin-bottom: 80px;
     
-
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
 }
+.text {
+    height: 130px;
+    width: 190px;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 0px;
+    font-size: 20px;
+    float: left;
+}
+.adoption-app:hover {
+    transform: scale(1.05);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: 0.1s;
+    border: 1px solid rgb(117, 117, 117);
+  }
 body {
-    background-color: lightgrey;
+    background-color: rgb(179, 179, 179);
 }
-#bottomNav {
+.bottom-nav {
     text-align: center;
     font-size: 20px;
     font-weight: bold;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(43, 43, 43);
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
-#topNav {
-text-align: center;
-font-size: 20px;
-font-weight: bold;
+.top-nav {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(43, 43, 43);
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 .content {
-    margin: auto;
-    width: auto;
-    padding-top: 5px;
-    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+}
+.content1 {
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-links {
+    height: 35px;
+    width: 35px;
+    padding: 1%;
+    padding-bottom: 5%;
+}
+.footer-links:hover {
+    transform: scale(1.05);
+    transition: 0.1s;
 }
