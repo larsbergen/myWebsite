@@ -9,6 +9,9 @@
     float: left;
     border: 2px solid black;
 }
+.route {
+color: white;
+}
 .app-box {
     height: auto;
     width: 220px;
